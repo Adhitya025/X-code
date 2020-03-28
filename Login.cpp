@@ -1,12 +1,3 @@
-/*
-	=========================================================
-	|Nama			: Adhitya Nasuwa						|
-	|Alamat			: Dsn.Pangungsen Rt23/06				|
-	|No Handphone	: 08386609708							|
-	|GitHub			: https://github.com/adhitya/manik025	|
-	|Website		: www.adhitya.org						|
-	=========================================================
-*/
 
 #include <iostream>
 #include <conio.h>
