@@ -21,7 +21,7 @@ def cls_terbk():
   
 print(50*"=")
 print("Tools Belajar programming language"
-print(50*"="
+print(50*"=")
 
 print('''
 
