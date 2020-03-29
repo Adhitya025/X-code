@@ -47,7 +47,7 @@ elif menu == '3':
     os.system('exit')
 else:
   print("perintah tidak di ketahui")
-  os.system('python script2.py)
+  os.system('python script2.py')
   
 
 
