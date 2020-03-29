@@ -16,7 +16,7 @@ def iOsif():
  os.system('python2 osif.py')
  
 
-print('''-=[ MyTools ]=-''')
+print('''-=[ MyTools ]=-
 
      [Menu]
 [1] Cek IP
