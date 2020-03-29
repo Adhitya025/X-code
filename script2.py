@@ -3,6 +3,7 @@
 
 
 import requests,os
+os.system('setterm -foreground yellow')
 os.system('clear')
 
 def all():
@@ -19,10 +20,11 @@ def cls_terbk():
   os.system('https://github.com/kelasterbuka/CPP_dasar-dasar-programming.git')
   
 print(50*"=")
+print("Tools Belajar programming language"
+print(50*"="
 
 print('''
 
-~~~~~~~[Menu]~~~~~~~~~~
 |=> [1] Belajar python
 |=> [2] Belajar C++
 |=> [3] Exit
