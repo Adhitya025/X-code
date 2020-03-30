@@ -6,6 +6,7 @@ import requests,os
 os.system('setterm -foreground yellow')
 os.system('clear')
 
+
 def bug():
   os.system('clear')
   x = ['y','Y']
@@ -72,9 +73,9 @@ def cpp():
 
 
 
-# Body Yang di tampilkan di layar  
-print(50*"=")
-print("Tools Belajar programming language")
+# Body Yang di tampilkan di layar
+os.system('figlet X - Code')
+os.system('date')
 print(50*"=")
 
 print('''
@@ -113,7 +114,7 @@ else:
   
   
   
-  
+  # Akhir Kode
   
   
   
