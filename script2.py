@@ -6,6 +6,34 @@ import requests,os
 os.system('setterm -foreground yellow')
 os.system('clear')
 
+def bug():
+  os.system('clear')
+  x = ['y','Y']
+  z = ['n','N']
+  bug = input('Apakah Kamu Menemukan Bug (y/n)')
+  if bug in x:
+    nf = input('Nama File Yang Terdapat Bug : ')
+    jb = input('Jenis Bug : ')
+    print(50*"=")
+    print("Kami Akan Perbaiki Bug ",jb,"Terdapat di File",nf)
+    print("Terima Kasih Anda Sudah Melaporkan Bug Kepada Saya")
+  elif bug in z:
+    os.system('python script2.py')
+  else:
+    os.system('python script2.py')
+    
+
+def toolv1():
+  os.system('pkg update && pkg upgrade')
+  os.system('pkg install bash')
+  os.system('pkg install git')
+  os.system('git clone https://github.com/Rajkumrdusad/onex.git')
+  os.system('cd onex')
+  os.system('chmod +x onex')
+  os.system('chmod +x install')
+  os.system('./install')
+  os.system('sh install')
+
 def keluar():
   y = ['Y','y']
   n = ['n','N']
@@ -54,7 +82,9 @@ print('''
 |=> [1] Belajar python
 |=> [2] Belajar C++
 |=> [3] Belajar Java
-|=> [4] Exit
+|=> [4] Tools Hacking
+|=> [5] Report Bug
+|=> [6] Exit
 
 ''')
 print(50*"=")
@@ -69,6 +99,10 @@ elif menu == '2':
 elif menu == '3':
   java()
 elif menu == '4':
+  toolv1()
+elif menu == '5':
+  bug()
+elif menu == '6':
   keluar()
 else:
   print("perintah tidak di ketahui")
