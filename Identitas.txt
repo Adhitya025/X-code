@@ -3,5 +3,5 @@ Umur		: 19 tahun
 Alamat		: -
 Hobi		: Coding
 Github		: https://github.com/Adhitya025/X-code
-My website : https://maniksport.blogspot.com
+My website    : https://maniksport.blogspot.com
 
