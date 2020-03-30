@@ -27,9 +27,9 @@ def bug():
   bug = input('Apakah Kamu Menemukan Bug (y/n) ? ')
   if bug in x:
     nf = input('Nama File Yang Terdapat Bug : ')
-    print(50*"=")
+    print(41*"=")
     jb = input('Jenis Bug : ')
-    print(50*"=")
+    print(41*"=")
     print("Kami Akan Perbaiki Bug ",jb,"Terdapat di File",nf)
     print("Terima Kasih Anda Sudah Melaporkan Bug Kepada Kami")
   elif bug in z:
@@ -90,7 +90,7 @@ def cpp():
 # Body Yang di tampilkan di layar
 os.system('figlet X - Code')
 os.system('date')
-print(50*"=")
+print(41*"=")
 
 print('''
 
@@ -101,10 +101,10 @@ print('''
 |=> [5] Report Bug
 |=> [6] Cmatrix
 |=> [7] Scane Website
-|=> [8] Exit
+|=> [99] Exit
 
 ''')
-print(50*"=")
+print(41*"=")
 menu = input('|=> [?] Silahkan Pilih Menu : ')
 # Akhir body
 
@@ -123,7 +123,7 @@ elif menu == '6':
   cmatrix()
 elif menu == '7':
   red_hawk()
-elif menu == '8':
+elif menu == '99':
   keluar()
 else:
   print("perintah tidak di ketahui")
