@@ -1,23 +1,37 @@
+# Nama pembuat Adhitya 
 # Ngambil Folder GitHub nya Kelas Terbuka
-# Jangan lupa Subscribe Kelas Terbuka
+# Jangan lupa Subscribe (Kelas Terbuka) && (Manik X-Code)
 
 
 import requests,os
-os.system('setterm -foreground yellow')
+os.system('setterm -foreground green')
 os.system('clear')
+
+def cmatrix():
+  os.system('pkg install cmatrix')
+  os.system('cmatrix')
+  
+  
+def red_hawk():
+  os.system('pkg install php')
+  os.system('git clone https://github.com/Tuhinshubhra/RED_HAWK')
+  os.system('cd RED_HAWK')
+  os.system('chmod 777 *')
+  os.system('php rhawk.php')
 
 
 def bug():
   os.system('clear')
   x = ['y','Y']
   z = ['n','N']
-  bug = input('Apakah Kamu Menemukan Bug (y/n)')
+  bug = input('Apakah Kamu Menemukan Bug (y/n) ? ')
   if bug in x:
     nf = input('Nama File Yang Terdapat Bug : ')
+    print(50*"=")
     jb = input('Jenis Bug : ')
     print(50*"=")
     print("Kami Akan Perbaiki Bug ",jb,"Terdapat di File",nf)
-    print("Terima Kasih Anda Sudah Melaporkan Bug Kepada Saya")
+    print("Terima Kasih Anda Sudah Melaporkan Bug Kepada Kami")
   elif bug in z:
     os.system('python script2.py')
   else:
@@ -85,7 +99,9 @@ print('''
 |=> [3] Belajar Java
 |=> [4] Tools Hacking
 |=> [5] Report Bug
-|=> [6] Exit
+|=> [6] Cmatrix
+|=> [7] Scane Website
+|=> [8] Exit
 
 ''')
 print(50*"=")
@@ -104,6 +120,10 @@ elif menu == '4':
 elif menu == '5':
   bug()
 elif menu == '6':
+  cmatrix()
+elif menu == '7':
+  red_hawk()
+elif menu == '8':
   keluar()
 else:
   print("perintah tidak di ketahui")
