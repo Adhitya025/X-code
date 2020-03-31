@@ -33,9 +33,9 @@ def bug():
     print("Kami Akan Perbaiki Bug ",jb,"Terdapat di File",nf)
     print("Terima Kasih Anda Sudah Melaporkan Bug Kepada Kami")
   elif bug in z:
-    os.system('python script2.py')
+    os.system('python Tools-v1.py')
   else:
-    os.system('python script2.py')
+    os.system('python Tools-v1.py')
     
 
 def toolv1():
@@ -127,7 +127,7 @@ elif menu == '99':
   keluar()
 else:
   print("perintah tidak di ketahui")
-  os.system('python script2.py')
+  os.system('python Tools-v1.py')
 # Akhir dari pengecekan  
 
 
