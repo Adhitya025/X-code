@@ -1,0 +1,16 @@
+{
+    "Adhitya" : {
+
+        "Umur"  : 19,
+        "No Hp" : "083822002785",
+        "Alamat": "Jln.Ahmad Yani No 79"
+
+    },
+    "Manik" : {
+
+        "Umur"  : 19,
+        "No Hp" : "083822402775",
+        "Alamat": "Jln.Purwadadi"
+
+    }
+}

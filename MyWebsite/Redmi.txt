@@ -1,0 +1,52 @@
+[English]
+This site was made by Manik.
+
+# Materials to make this site :
+> The laptop (Windows,Mac Os,Linux)
+> Text editor (Sublime Text,Netepad++,Visual Studio Code)
+> The basics of programming languages (HTML,CSS,JavaScript,PHP)
+> Can speak English
+
+# YouTube channel for learning programming languages :
+> WebPrograming Unpas
+> Kelas Terbuka
+
+[Idioma español]
+Este sitio fue hecho por Manik.
+
+# Materiales para hacer este sitio:
+> La computadora portátil (Windows, Mac Os, Linux)
+> Editor de texto (Sublime Text, Netepad ++, Visual Studio Code)
+> Los fundamentos de los lenguajes de programación (HTML, CSS, JavaScript, PHP)
+> Puede hablar ingles
+
+# Canal de YouTube para aprender lenguajes de programación:
+> WebPrograming Unpas 
+> Kelas Terbuka
+
+[한국어]
+이 사이트는 Manik에 의해 만들어졌습니다.
+
+이 사이트를 만드는 재료 :
+> 랩탑 (Windows, Mac Os, Linux)
+> 텍스트 편집기 (Sublime Text, Netepad ++, Visual Studio Code)
+> 프로그래밍 언어의 기본 (HTML, CSS, JavaScript, PHP)
+> 영어를 할 수 있습니다
+
+프로그래밍 언어 학습을위한 YouTube 채널 :
+> WebPrograming Unpas
+> Kelas Terbuka
+
+[عرب]
+تم إنشاء هذا الموقع بواسطة Manik.
+
+# مواد لصنع هذا الموقع:
+> الكمبيوتر المحمول (Windows و Mac Os و Linux)
+> محرر نص (Sublime Text و Netepad ++ و Visual Studio Code)
+> أساسيات لغات البرمجة (HTML ، CSS ، JavaScript ، PHP)
+> هل يتحدث الإنجليزية
+
+# قناة يوتيوب لتعلم لغات البرمجة:
+> WebPrograming Unpas
+> Kelas Terbuka
+

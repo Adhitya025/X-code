@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <title>SK-ONE || Index</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        
+        <!-- My CSS -->
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+                font-family: fira code;
+            }
+            body {
+                background: #000;
+                animation: bg 3s infinite;
+            }
+            .container {
+                text-align: center;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                width: 100%;
+            }
+            .container span {
+                text-transform: uppercase;
+                display: block;
+            }
+            .text1 {
+                color: white;
+                font-size: 60px;
+                font-weight: 700;
+                letter-spacing: 8px;
+                margin-bottom: 20px;
+                background: transparent;
+                position: relative;
+                animation: text 3s 1;
+            }
+            .text2 {
+                font-size: 25px;
+                color:white;
+            }
+            a:hover {
+                text-decoration: none;
+            }
+            .footer {
+                width: 100%;
+                height: 50px;
+                background-color: blue;
+                color: black;
+                position: absolute;
+                margin-top: 535px;
+                text-align: center;
+                padding: 15px;
+            }
+
+            /* ANIMASI */
+            @keyframes text {
+                0% {
+                    color: black;
+                    background: #000;
+                    margin-bottom: -50px;
+                }
+                30% {
+                    letter-spacing: 25px;
+                    background: #000;
+                    margin-bottom: -40px;
+                }
+                50%{
+                    letter-spacing: 15px;
+                    background: #000;
+                    margin-bottom: -40px;
+                }
+                85% {
+                    letter-spacing: 8px;
+                    margin-bottom: -40px;
+                }
+                100%{
+                    background: transparent;
+                }
+            }
+
+            @keyframes bg {
+                0%{
+                    background: #000;
+                }
+                25% {
+                    background: black;
+                }
+                50% {
+                    background: rgb(250, 6, 6);
+                }
+                75% {
+                    background: rgb(23, 7, 255);
+                }
+                100% {
+                    background: rgb(217, 255, 0);
+                }
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+    <!-- Navbar -->
+    <div class="header">
+        <nav class="navbar navbar-danger bg-primary">
+            <a class="navbar-brand">SK-ONE</a>
+            <form class="form-inline">
+              <a href="" style="color: black;">Login |</a>
+              <a href=""style="color: black;">| Daftar</a>
+            </form>
+        </nav>
+    </div>
+    <!-- Akhir Navbar  -->
+
+    <!-- Body -->
+    <div class="container">
+        <span class="text1">Welcome in</span>
+        <span class="text2">Sk-One</span>
+    </div>
+    <!-- Akhir Body -->
+
+    <!-- Footer -->
+    <div class="footer">
+        COPYRIGHT &copy Manik 2020
+    </div>
+    <!-- Akhir Footer -->
+
+    </body>
+</html>
